@@ -1,0 +1,33 @@
+.header-area {
+  background: #e9eafa;
+}
+
+.logo a {
+  font-size: 24px;
+  color: #111;
+  font-weight: 700;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.main-menu ul li:first-child {
+  margin-left: 0;
+}
+
+.main-menu ul li a {
+  display: block;
+  font-size: 16px;
+  color: #111;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 12px 0;
+  transition: all 0.4s ease;
+  margin-top: 10px;
+}
+
+.main-menu ul li a:hover {
+  color: #4144f3;
+}

@@ -1,0 +1,28 @@
+/* Blog List Styles */
+.blog-list-sidebar-area {
+  margin: 50px 0;
+  animation: blogs-appear 1s ease-out forwards;
+}
+/* Blog Recomended Styles */
+.blog-recomended {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-recomended h2 {
+  font-size: 40px;
+  color: #111;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+@keyframes blogs-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,80 @@
+/* Blog Details Styles */
+.blog-details img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-details .blog-author img {
+  width: 60px;
+  height: 60px;
+}
+
+.blog-details .blog-text h2 {
+  font-size: 40px;
+  color: #111;
+  line-height: 1.5;
+}
+
+.blog-details .blog-text p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.blog-details-contact-form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-details-contact-form h2 {
+  font-size: 40px;
+  color: #111;
+  line-height: 1.5;
+}
+
+.blog-details-contact-form form p {
+  margin-bottom: 20px;
+}
+
+.blog-details-contact-form form p label {
+  font-size: 16px;
+  color: #111;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.blog-details-contact-form form p input,
+.blog-details-contact-form form p textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #111;
+  background: transparent;
+  color: #111;
+  border-radius: 4px;
+}
+
+.blog-details-contact-form form p textarea {
+  height: 250px;
+  resize: none;
+}
+
+.blog-details-contact-form form p button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #4144f3;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: all 0.4s ease;
+}
+.blog-details-contact-form form p button span {
+  margin: 9px;
+}
+.blog-details-contact-form form p button:hover {
+  background-color: #1e20aa;
+}

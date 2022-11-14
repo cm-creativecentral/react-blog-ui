@@ -1,0 +1,113 @@
+/* Hero/Feature Area Styles */
+.hero-area {
+  margin: 50px 0;
+  animation: hero-appear 1s ease-out forwards;
+}
+
+.single-feature-post {
+  position: relative;
+}
+
+.single-feature-post img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.feature-text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.feature-text {
+  text-align: center;
+  background: #101281;
+  padding: 50px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.feature-text h2 {
+  font-size: 50px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.feature-text p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.feature-post-btn {
+  display: inline-block;
+  background: #1f22dd;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 15px;
+  transition: all 0.4s ease;
+}
+
+.feature-post-btn:hover {
+  background: #1619c0;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .feature-text h2 {
+    font-size: 30px;
+  }
+
+  .feature-text p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature-text {
+    padding: 30px;
+  }
+
+  .feature-text h2 {
+    font-size: 15px;
+  }
+
+  .feature-post-btn {
+    padding: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feature-text h2 {
+    font-size: 15px;
+  }
+
+  .feature-text p {
+    font-size: 13px;
+  }
+
+  .feature-text {
+    width: auto;
+  }
+}
+@keyframes hero-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,16 @@
+.single-recent-post {
+  margin-bottom: 15px;
+}
+
+.single-recent-post img {
+  width: 45px;
+  height: 45px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.single-recent-post span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+}
